@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""concat two string"""
+"""flot to str"""
 
 
 def to_str(n: float) -> str:
     """
-    concat str1 + str2
+    implicit conv n:float -> str
     """
     return str(n)
