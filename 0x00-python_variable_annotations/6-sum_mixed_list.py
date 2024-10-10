@@ -2,10 +2,10 @@
 """sum_mixed_list"""
 
 
-from typing import List
+from typing import Union
 
 
-def sum_mixed_list(mxd_lst: List[int | float]) -> float:
+def sum_mixed_list(mxd_lst: Union[int, float]) -> float:
     """miced value in list"""
     sum: float = 0
     for i in mxd_lst:
