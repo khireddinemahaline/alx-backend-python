@@ -4,7 +4,6 @@ create a generateur async
 """
 
 
-
 from asyncio import sleep
 from random import uniform
 from typing import Generator
